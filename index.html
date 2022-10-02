@@ -13,238 +13,250 @@
 </head>
 
 <body>
-<div class="banner">
-    <div class="banner__item">
-        <label for="printBtn">Print</label>
-        <button id="printBtn" class="banner__print-btn" type="button"><i class="material-icons">printer</i></button>
+    <div class="banner">
+        <div class="banner__item">
+            <label for="printBtn">Print</label>
+            <button id="printBtn" class="banner__print-btn" type="button"><i class="material-icons">printer</i></button>
+        </div>
+        <div class="banner__item banner__switch-container">
+            <label for="dmSwitch">Dark Mode</label>
+            <label class="banner__switch">
+                <input id="dmSwitch" class="banner__radio" type="checkbox">
+                <span class="banner__slider"></span>
+            </label>
+        </div>
     </div>
-    <div class="banner__item banner__switch-container">
-        <label for="dmSwitch">Dark Mode</label>
-        <label class="banner__switch">
-            <input id="dmSwitch" class="banner__radio" type="checkbox">
-            <span class="banner__slider"></span>
-        </label>
+    <div class="content">
+        <div class="page">
+            <section class="profile">
+                <div class="profile__info">
+                    <h1 class="profile__heading">Siri Lööf</h1>
+                    <h2 class="profile__sub-heading">Creative software engineer</h2>
+                    <div class="contact">
+                        <p><span class="contact__type">LinkedIn:</span><a href="http://linkedin.com/in/siriloof"
+                                target="_blank">linkedin.com/in/siriloof</a></p>
+                        <p><span class="contact__type">GitHub:</span><a href="https://github.com/siriloof"
+                                target="_blank">github.com/siriloof</a></p>
+                    </div>
+                </div>
+                <img class="profile__image" src="images/siri.jpeg" alt="profile picture" />
+            </section>
+            <hr />
+            <section>
+                <p>
+                    A specialist in frontend development, I always strive to provide the best possible user experience
+                    in
+                    the applications I build, regardless of browser or screen size.
+                    <br />
+                    Not only do I pride myself on writing maintainable and beautiful code; I approach any project with
+                    great enthusiasm and a positive can-do attitude.
+                </p>
+            </section>
+            <hr />
+            <section>
+                <h2 class="section-heading">Languages, frameworks and tools</h2>
+                <div class="tool">
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/html5.png" alt="Logo-HTML5">
+                        <span class="tool__name">HTML</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/css.png" alt="Logo-CSS3">
+                        <span class="tool__name">CSS</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/js.png" alt="Logo-JS">
+                        <span class="tool__name">JavaScript</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/react.png" alt="Logo-React">
+                        <span class="tool__name">React</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/next.png" alt="Logo-Next">
+                        <span class="tool__name">Next.js</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/typescript.png" alt="Logo-Typescript">
+                        <span class="tool__name">TypeScript</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/redux.png" alt="Logo-Redux">
+                        <span class="tool__name">Redux</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/nodejs.png" alt="Logo-NodeJS">
+                        <span class="tool__name">Node.js</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/java.png" alt="Logo-Java">
+                        <span class="tool__name">Java</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/angular.svg" alt="Logo-AngularJS">
+                        <span class="tool__name">AngularJS</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/webpack.png" alt="Logo-Webpack">
+                        <span class="tool__name">Webpack</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/sass.png" alt="Logo-Sass">
+                        <span class="tool__name">Sass</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/less.png" alt="Logo-Less">
+                        <span class="tool__name">LESS</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/jest.png" alt="Logo-Jest">
+                        <span class="tool__name">Jest</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/testing-library-logo.png" alt="Logo-Testing-Library">
+                        <span class="tool__name">Testing Library</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/cypress-logo.png" alt="Logo-Cypress">
+                        <span class="tool__name">Cypress</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/git.png" alt="Logo-Git">
+                        <span class="tool__name">Git</span>
+                    </div>
+                    <div class="tool__wrapper">
+                        <img class="tool__image" src="images/aws-logo.png" alt="Logo-AWS">
+                        <span class="tool__name">AWS</span>
+                    </div>
+                </div>
+            </section>
+            <hr />
+            <section>
+                <h2 class="section-heading">Career History</h2>
+                <article class="job">
+                    <h3 class="job__title">Software Engineer</h3>
+                    <h4 class="job__employer">Spotify</h4>
+                    <p class="job__duration">Dec 2020 - Ongoing.
+                        <span class="job__location">Stockholm, Sweden</span>
+                    </p>
+                    <p class="job__summary">
+                        Full-stack engineer working on the web pages of Spotify.com and their underlying systems. Tech
+                        includes NextJS, React, Typescript, NodeJS, Java.
+                    </p>
+                </article>
+                <article class="job">
+                    <h3 class="job__title">Software Engineer</h3>
+                    <h4 class="job__employer">ASSA ABLOY (Contractor via Cygni)</h4>
+                    <p class="job__duration">Nov 2019 - Dec 2020
+                        <span class="job__location">Stockholm, Sweden</span>
+                    </p>
+                    <p class="job__summary">
+                        Worked as a full-stack developer building a cloud-based solution for the American hotel market.
+                        The team works with TDD (yes, for real),
+                        favours pair- and mob programming to benefit knowledge sharing, and has a complete Continuous
+                        Delivery process in place.
+                    </p>
+                </article>
+                <article class="job">
+                    <h3 class="job__title">Head JavaScript Instructor</h3>
+                    <h4 class="job__employer">Salt, School of Applied Technology (Contractor via Cygni)</h4>
+                    <p class="job__duration">Aug 2019 - Nov 2019
+                        <span class="job__location">Stockholm, Sweden</span>
+                    </p>
+                    <p class="job__summary">
+                        The Full Stack JavaScript Developer program at Salt is designed to teach motivated, passionate
+                        and creative individuals how to code from scratch.
+                        My role as head instructor was coaching, guiding and giving feedback to students, as well as
+                        creating and maintaining the curriculum. I also gave daily lectures in programming.
+                    </p>
+                </article>
+            </section>
+        </div>
+        <div class="page">
+            <section>
+                <article class="job">
+                    <h3 class="job__title">Software Engineer</h3>
+                    <h4 class="job__employer">Bonnier News (Contractor via Cygni)</h4>
+                    <p class="job__duration">Apr 2019 - Aug 2019
+                        <span class="job__location">Stockholm, Sweden</span>
+                    </p>
+                    <p class="job__summary">
+                        Helped build a self-service platform on the web for customers of Bonnier Magazines and Brands.
+                        I worked full-stack with JavaScript and took on a leading role in the team by for example
+                        introducing mob-programming to increase knowledge
+                        sharing and upgrading the front-end stack with tools such as Webpack. I have also contributed to
+                        optimizing the team's agile processes and I regularly gave presentations for stakeholders and
+                        other
+                        teams.
+                    </p>
+                </article>
+                <article class="job">
+                    <h3 class="job__title">Software Engineer</h3>
+                    <h4 class="job__employer">Com Hem (Contractor via Cygni)</h4>
+                    <p class="job__duration">March 2017 - March 2019
+                        <span class="job__location">Stockholm, Sweden</span>
+                    </p>
+                    <p class="job__summary">
+                        Building complex internal applications used by thousands of Com Hem customer service- and retail
+                        staff. The work was in a fast-pace agile environment in close collaboration with stakeholders
+                        and
+                        other development teams. As part of my role I also held internal training courses, for example
+                        in React and BEM
+                        CSS.
+                    </p>
+                </article>
+                <article class="job">
+                    <h3 class="job__title">Web Engineer</h3>
+                    <h4 class="job__employer">The Unit</h4>
+                    <p class="job__duration">Jan 2016 - March 2017
+                        <span class="job__location">Brighton, UK</span>
+                    </p>
+                    <p class="job__summary">
+                        The Unit is a digital agency offering UX, design and development services to clients such as
+                        esure,
+                        Fidelity, Post Office, Coop and Toyota.
+                        I worked as a front-end developer on commercial projects in an Agile environment.
+                    </p>
+                </article>
+            </section>
+            <hr />
+            <section>
+                <h2 class="section-heading">Volunteer Experience</h2>
+                <article class="job">
+                    <h3 class="job__title">Programming Coach</h3>
+                    <h4 class="job__employer">Codebar</h4>
+                    <p class="job__duration">March 2015 - Feb 2017
+                        <span class="job__location">Brighton, UK</span>
+                    </p>
+                    <p class="job__summary">
+                        Codebar is a non-profit initiative where the goal is to enable underrepresented groups in the
+                        tech
+                        industry (such as women and LGBTQ) to learn programming in a safe and collaborative environment
+                        and
+                        expand their career opportunities.
+                        Having started out as a student at Codebar myself, I was keen to give back to the community that
+                        inspired me to become a developer and to be a role model for young female developers.
+                    </p>
+                </article>
+            </section>
+            <hr />
+            <section>
+                <h2 class="section-heading">Education</h2>
+                <div class="education">
+                    <ul>
+                        <li>
+                            <p class="education__name">Blekinge Institute of Technology, Sweden</p>
+                            <p class="education__info">Web Development, 30 ECTS-credits. 2015</p>
+                        </li>
+                        <li>
+                            <p class="education__name"> University of Sussex, UK</p>
+                            <p class="education__info"> BA Hons Music, 1st. 2012</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </div>
-</div>
-<div class="content">
-    <div class="page">
-        <section class="profile">
-            <div class="profile__info">
-                <h1 class="profile__heading">Siri Lööf</h1>
-                <h2 class="profile__sub-heading">Creative software engineer</h2>
-                <div class="contact">
-                    <p><span class="contact__type">LinkedIn:</span><a href="http://linkedin.com/in/siriloof" target="_blank">linkedin.com/in/siriloof</a></p>
-                    <p><span class="contact__type">GitHub:</span><a href="https://github.com/siriloof" target="_blank">github.com/siriloof</a></p>
-                </div>
-            </div>
-            <img class="profile__image" src="images/siri.jpeg" alt="profile picture"/>
-        </section>
-        <hr/>
-        <section>
-            <p>
-                A specialist in frontend development, I always strive to provide the best possible user experience
-                in
-                the applications I build, regardless of browser or screen size.
-                <br/>
-                Not only do I pride myself on writing maintainable and beautiful code; I approach any project with
-                great enthusiasm and a positive can-do attitude.
-            </p>
-        </section>
-        <hr/>
-        <section>
-            <h2 class="section-heading">Languages, frameworks and tools</h2>
-            <div class="tool">
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/html5.png" alt="Logo-HTML5">
-                    <span class="tool__name">HTML</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/css.png" alt="Logo-CSS3">
-                    <span class="tool__name">CSS</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/js.png" alt="Logo-JS">
-                    <span class="tool__name">JavaScript</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/react.png" alt="Logo-React">
-                    <span class="tool__name">React</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/redux.png" alt="Logo-Redux">
-                    <span class="tool__name">Redux</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/nodejs.png" alt="Logo-NodeJS">
-                    <span class="tool__name">Node.js</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/java.png" alt="Logo-Java">
-                    <span class="tool__name">Java</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/angular.svg" alt="Logo-AngularJS">
-                    <span class="tool__name">AngularJS</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/backbone.png" alt="Logo-Backbone.js">
-                    <span class="tool__name">Backbone.js</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/webpack.png" alt="Logo-Webpack">
-                    <span class="tool__name">Webpack</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/gulp.png" alt="Logo-Gulp">
-                    <span class="tool__name">Gulp</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/sass.png" alt="Logo-Sass">
-                    <span class="tool__name">Sass</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/less.png" alt="Logo-Less">
-                    <span class="tool__name">LESS</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/jest.png" alt="Logo-Jest">
-                    <span class="tool__name">Jest</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/testing-library-logo.png" alt="Logo-Testing-Library">
-                    <span class="tool__name">Testing Library</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/jasmine.png" alt="Logo-Jasmine">
-                    <span class="tool__name">Jasmine</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/mocha.png" alt="Logo-Mocha">
-                    <span class="tool__name">Mocha</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/cypress-logo.png" alt="Logo-Cypress">
-                    <span class="tool__name">Cypress</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/git.png" alt="Logo-Git">
-                    <span class="tool__name">Git</span>
-                </div>
-                <div class="tool__wrapper">
-                    <img class="tool__image" src="images/aws-logo.png" alt="Logo-AWS">
-                    <span class="tool__name">AWS</span>
-                </div>
-            </div>
-        </section>
-        <hr/>
-        <section>
-            <h2 class="section-heading">Career History</h2>
-            <article class="job">
-                <h3 class="job__title">Software Engineer</h3>
-                <h4 class="job__employer">ASSA ABLOY (Contractor via Cygni)</h4>
-                <p class="job__duration">Nov 2019 - Ongoing.
-                    <span class="job__location">Stockholm, Sweden</span>
-                </p>
-                <p class="job__summary">
-                    I work as a full-stack developer building a cloud-based solution for the American hotel market. The team works with TDD (yes, for real),
-                    favours pair- and mob programming to benefit knowledge sharing, and has a complete Continuous Delivery process in place.
-                </p>
-            </article>
-            <article class="job">
-                <h3 class="job__title">Head JavaScript Instructor</h3>
-                <h4 class="job__employer">Salt, School of Applied Technology (Contractor via Cygni)</h4>
-                <p class="job__duration">Aug 2019 - Nov 2019
-                    <span class="job__location">Stockholm, Sweden</span>
-                </p>
-                <p class="job__summary">
-                    The Full Stack JavaScript Developer program at Salt is designed to teach motivated, passionate
-                    and creative individuals how to code from scratch. The course includes everything from Databases
-                    and Node.js to React, CSS and UX. It’s fast-paced and highly rewarding.
-                    My role as head instructor was coaching, guiding and giving feedback to students, as well as
-                    creating and maintaining the curriculum to ensure we deliver high quality, relevant and modern
-                    course content. I also gave daily lectures in programming.
-                </p>
-            </article>
-        </section>
-    </div>
-    <div class="page">
-        <section>
-            <article class="job">
-                <h3 class="job__title">Software Engineer</h3>
-                <h4 class="job__employer">Bonnier News (Contractor via Cygni)</h4>
-                <p class="job__duration">Apr 2019 - Aug 2019
-                    <span class="job__location">Stockholm, Sweden</span>
-                </p>
-                <p class="job__summary">
-                    I helped build a self-service platform on the web for customers of Bonnier Magazines and Brands
-                    (including
-                    brands such as Amelia, Damernas Värld, Allt I Hemmet). I worked full-stack with JavaScript and took on a leading role in the team by for example introducing mob-programming to increase knowledge
-                    sharing and upgrading the front-end stack with tools such as Webpack. I have also contributed to
-                    optimizing the team's agile processes and I regularly gave presentations for stakeholders and other
-                    teams.
-                </p>
-            </article>
-            <article class="job">
-                <h3 class="job__title">Software Engineer</h3>
-                <h4 class="job__employer">Com Hem (Contractor via Cygni)</h4>
-                <p class="job__duration">March 2017 - March 2019
-                    <span class="job__location">Stockholm, Sweden</span>
-                </p>
-                <p class="job__summary">
-                    Building complex internal applications used by thousands of Com Hem customer service- and retail
-                    staff. The work was in a fast-pace agile environment in close collaboration with stakeholders and
-                    other development teams. As part of my role I also held internal training courses, for example in React and BEM
-                    CSS.
-                </p>
-            </article>
-            <article class="job">
-                <h3 class="job__title">Web Engineer</h3>
-                <h4 class="job__employer">The Unit</h4>
-                <p class="job__duration">Jan 2016 - March 2017
-                    <span class="job__location">Brighton, UK</span>
-                </p>
-                <p class="job__summary">
-                    The Unit is a digital agency offering UX, design and development services to clients such as esure,
-                    Fidelity, Post Office, Coop and Toyota.
-                    I worked as a front-end developer on commercial projects in an Agile environment.
-                </p>
-            </article>
-        </section>
-        <hr/>
-        <section>
-            <h2 class="section-heading">Volunteer Experience</h2>
-            <article class="job">
-                <h3 class="job__title">Programming Coach</h3>
-                <h4 class="job__employer">Codebar</h4>
-                <p class="job__duration">March 2015 - Feb 2017
-                    <span class="job__location">Brighton, UK</span>
-                </p>
-                <p class="job__summary">
-                    Codebar is a non-profit initiative where the goal is to enable underrepresented groups in the tech
-                    industry (such as women and LGBTQ) to learn programming in a safe and collaborative environment and
-                    expand their career opportunities.
-                    Having started out as a student at Codebar myself, I was keen to give back to the community that
-                    inspired me to become a developer and to be a role model for young female developers.
-                </p>
-            </article>
-        </section>
-        <hr/>
-        <section>
-            <h2 class="section-heading">Education</h2>
-            <div class="education">
-                <ul>
-                    <li>
-                        <p class="education__name">Blekinge Institute of Technology, Sweden</p>
-                        <p class="education__info">Web Development, 30 ECTS-credits. 2015</p>
-                    </li>
-                    <li>
-                        <p class="education__name"> University of Sussex, UK</p>
-                        <p class="education__info"> BA Hons Music, 1st. 2012</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </div>
-</div>
 </body>
+
 </html>
