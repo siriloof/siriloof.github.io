@@ -9,13 +9,14 @@
   --alternate-bg-color: #131419;
   --main-bg-color: #0e0e0e;
   --main-color: #cacaca;
-  --accent-color: #3b4fb3;
+  --accent-color: #5b7dff;
 }
 
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -86,7 +87,7 @@ hr {
   white-space: nowrap;
   direction: ltr;
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'liga';'
+  font-feature-settings: 'liga';
 }
 
 .banner {
@@ -280,9 +281,9 @@ hr {
 
 .tool__wrapper {
   display: inline-flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: 1em 0.5em 0 0.5em;
 }
 
